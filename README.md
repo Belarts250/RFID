@@ -106,14 +106,14 @@ Used by the dashboard or external tools to add funds to a card.
 
 ### **Local Setup**
 
-1.  **Clone:** `git clone <repo-url>`
+1.  **Clone:** `git clone  https://github.com/Belarts250/RFID
 2.  **Install:** `npm install`
 3.  **Start:** `node server.js`
 4.  **Access:** `http://localhost:5000`
 
 ### **VPS Deployment**
 
-1.  **Connect:** `ssh user271@157.173.101.159`
+1.  **Connect:** `ssh user219@157.173.101.159`
 2.  **Transfer:** Use `scp` to move `server.js`, `package.json`, and `public/`.
 3.  **Execute:**
     ```bash
@@ -121,7 +121,7 @@ Used by the dashboard or external tools to add funds to a card.
     sudo npm install -g pm2
     pm2 start server.js --name "rfid-system"
     ```
-4.  **Access:** `http://157.173.101.159:5000`
+4.  **Access:** `http://157.173.101.159:9219/index-rfid.html`
 
 ---
 
