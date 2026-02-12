@@ -121,7 +121,7 @@ Used by the dashboard or external tools to add funds to a card.
     sudo npm install -g pm2
     pm2 start server.js --name "rfid-system"
     ```
-4.  **Access:** `http://157.173.101.159:9219/index-rfid.html`
+4.  **Access:** http://157.173.101.159:9219/index-rfid.html
 
 ---
 
